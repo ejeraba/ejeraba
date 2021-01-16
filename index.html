@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<title>E-portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="style.css">
+<body style="background-image: url('brik.png');">
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="#home" class="w3-bar-item w3-button"><b>Home</b></a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#personal" class="w3-bar-item w3-button">Personal Info</a>
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#education" class="w3-bar-item w3-button">Education</a>
+      <a href="#montage" class="w3-bar-item w3-button">Gallery</a>
+      
+    </div>
+  </div>
+</div>
+
+
+<div class="hero-image" id="home">
+  <div class="hero-text">
+    <h1><b>My E-portfolio</b></h1>
+<br>
+    <p>(place your cursor here)</p>
+<br>
+<br>
+<h3>Published: 16/1/2021</h3>
+  </div>
+</div>
+
+<br>
+<br>
+<br>
+
+<div class="boxer" id="personal">
+<h3 ><p align =center><u>My Biodata</u></h3>
+
+<table align=center>
+<tr>
+<td><b>NAME :</b></td>
+<td>EZRA BALAN NAWAN</td>
+</tr>
+
+<tr>
+<td><b>D.O.B : </b></td>
+<td>11 AUGUST 1998</td>
+</tr>
+
+<tr>
+<td><b>GENDER :</b></td>
+<td>MALE</td>
+</tr>
+
+<tr>
+<td><b>ORIGIN :</b></td>
+<td>MIRI, SARAWAK</td>
+</tr>
+
+<tr>
+<td><b>RACE :</b></td>
+<td>KAYAN/KELABIT</td>
+</tr>
+
+<tr>
+<td><b>OCCUPATION :</b></td>
+<td>STUDENT</td>
+</tr>
+
+<tr>
+<td><b>INSTITUTE :</b></td>
+<td>UNIVERSITI TEKNOLOGI MARA</td>
+</tr>
+</table>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+
+
+<div class="box" id="about">
+    <h3 ><p align =center><u>About</u></h3>
+    <p><p align =center> My name is Ezra Balan Nawan, currently Im 23 years old in the year  2021. Im pursuing Degree in Electronic Engineering in Universiti Teknologi Mara and by the time I created this website, Im about to finish
+    my 6th semester out of 8 total semester. I was assigned to create this website as an assignment for one of my course this semester which is Multimedia System and Application, ECE 551. I personally believe 
+    having even the slightest knowledge of creating a website is very important nowadays as we are living in a period where multimedia is one of the basis in modern living. Im very delightful to be given a chance to 
+    perform this specific task.</p>
+    <p align = center>A litle bit of info regarding this assignment, the duration given to complete this assignment was 3 weeks(Week 10 - Week 13). With the knowledge gained from the past few weeks of lessons,
+  especially from Chapter 3 of ECE 551 which is Multimedia Skills & Steps, I learned that one of the key aspects of making a successfull project is good planning. Without a plan, a project surely 
+won't meet it's expectations and deadline. The gantt chart below shows the actions I took to complete this project with respect to the duration given. </p>
+
+    <p><p align =center>Project's Gantt Chart blablabla : </p>
+	<a target="_blank" href="gant.png"><p align =center> 
+  	<img class="tumb" src="gant.png" alt="Gantt Chart" style="width:150px">
+	</a>
+
+    <p ><p align =center>With all that being said, I would like to take this oppurtunity to present myself through this platform. Below is my professional resume;</p>
+    <p><p align =center>Personal resume : </p>
+	<a target="_blank" href="resume.png"><p align =center>
+  	<img class="tumb" src="resume.png" alt="Forest" style="width:150px">
+	</a>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+
+  <div class="box" id="education">
+    <h3><p align =center><u>My Education</u></h3>
+	<img class = "centor" src="edu.png" alt="education" >
+  </div>
+
+<br>
+<br>
+<br>
+<br>
+
+  <div class="boxi" id="montage">
+    <h3><p align =center><u>Gallery</u></h3>
+
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img src="grad.jpeg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+    <img src="fam.jpeg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+    <img src="serian.jpeg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+    <img src="spm.jpeg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <img src="diploma.jpeg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="degree.jpeg" style="width:100%">
+  </div>
+    
+
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="grad.jpeg" style="width:0%" onclick="currentSlide(1)" alt="Diploma Graduation">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="fam.jpeg" style="width:0%" onclick="currentSlide(2)" alt="Me and my family">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="serian.jpeg" style="width:0%" onclick="currentSlide(3)" alt="Me with my diploma mates">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="spm.jpeg" style="width:0%" onclick="currentSlide(4)" alt="Secondary school graduation">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="diploma.jpeg" style="width:0%" onclick="currentSlide(5)" alt="First classmates for diploma">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="degree.jpeg" style="width:0%" onclick="currentSlide(6)" alt="First classmates for degree">
+    </div>    
+
+  </div>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+  </div>
+
+<br>
+<br>
+<br>
+<br>
+
+<div class="culor">
+  <p align=center><img src="succ.png" class="w3-image" height="700" width="700">
+</div>
+
+<footer class="w3-center w3-black w3-padding-16">
+  <p>Template by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">W3 schools</a> . 
+Published using <a href="https://github.com/"  target="_blank" class="w3-hover-text-green">GitHub</a> . Recommended platform : PC . 
+This site is for assignment purposes only.</p>
+</footer>
+
+</div>
+
+</body>
+</html>
