@@ -1,3 +1,4 @@
+
 body {
 
   font-family: Arial;
@@ -98,17 +99,18 @@ img {
 
 body, html {
   height: 100%;
-  margin: 80;
+  margin: 70;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .hero-image {
-  background: linear-gradient(rgba(0, 0, 0, 0.03), rgba(0, 0, 0, 0.03)), url("me.jpeg") center no-repeat ,url(newback.png) left center no-repeat,
+  background: linear-gradient(rgba(0, 0, 0, 0.03), rgba(0, 0, 0, 0.03)), url("me.jpeg") center no-repeat ,url(lit.png) left center no-repeat,
 url(marble.png)   left center ;
   height: 50%;
   background-size: contain;
   position: relative;
   padding-top:70px;
+  box-shadow: 10px 10px 5px grey;
 }
 
 .hero-image:hover {
@@ -155,6 +157,7 @@ url(marble.png)   left center ;
   padding-bottom: 36px;
   padding-top: 5px;
 background: linear-gradient(rgba(0, 0, 0, 0.03), rgba(0, 0, 0, 0.03)), url("dark.png") center no-repeat;
+box-shadow: 10px 10px 5px grey;
 }
 
 .boxi{
@@ -167,6 +170,7 @@ background: linear-gradient(rgba(0, 0, 0, 0.03), rgba(0, 0, 0, 0.03)), url("dark
   padding-bottom: 36px;
   padding-top: 5px;
 background: linear-gradient(rgba(0, 0, 0, 0.03), rgba(0, 0, 0, 0.03)), url("dark.png") center no-repeat;
+box-shadow: 10px 10px 5px grey;
 }
 
 .box{
@@ -177,6 +181,7 @@ background: linear-gradient(rgba(0, 0, 0, 0.03), rgba(0, 0, 0, 0.03)), url("dark
   padding: 20px;
   padding-bottom: 70px;
 background: linear-gradient(rgba(0, 0, 0, 0.03), rgba(0, 0, 0, 0.03)), url("dark.png") center no-repeat;
+box-shadow: 10px 10px 5px grey;
 }
 
 .tumb:hover {
